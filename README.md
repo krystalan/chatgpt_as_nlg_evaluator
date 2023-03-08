@@ -1,4 +1,5 @@
 # Is ChatGPT a Good NLG Evaluator? A Preliminary Study 
+This repository contains the data for our report ["Is ChatGPT a Good NLG Evaluator? A Preliminary Study"](https://arxiv.org/abs/2303.04048)
 
 ## 1. ChatGPT Evaluation Results
 please refer to `data/*.json`
@@ -132,3 +133,5 @@ TBD
 Part of this code is inspired by [BARTScore](https://github.com/neulab/BARTScore) and [OpenMEVA](https://github.com/thu-coai/OpenMEVA):
 - The results of baseline metrics in `data/bagel.json` and `data/summeval` are provided by [BARTScore](https://github.com/neulab/BARTScore)  
 - The results of baseline metrics in `data/openmeva.json` are calculated by the standard implementation of [OpenMEVA](https://github.com/thu-coai/OpenMEVA#toolkit) and [BARTScore](https://github.com/neulab/BARTScore#direct-use)
+
+Prompts are inspired by [Large Language Models Are State-of-the-Art Evaluators of Translation Quality](https://arxiv.org/abs/2302.14520)
